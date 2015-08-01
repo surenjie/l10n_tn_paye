@@ -1,7 +1,7 @@
 ﻿{
     'name': 'Tunisia-payroll',
     'category': 'Localization/Payroll',
-    'author': 'SIAT:Mohamed Habib CHALLOUF & Borni DHEFI',
+    'author': 'SIAT:Mohamed Habib CHALLOUF',
     'website': 'http://www.siat.com.tn',
     "category" : "Localization",
     'version': '1.0',
