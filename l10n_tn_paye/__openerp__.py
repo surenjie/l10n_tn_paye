@@ -1,7 +1,7 @@
 ﻿{
     'name': 'Tunisia-payroll',
     'category': 'Localization/Payroll',
-    'author': 'SIAT:Mohamed Habib CHALLOUF',
+    'author': 'SIAT:Challouf Mohamed Habib',
     'website': 'http://www.siat.com.tn',
     "category" : "Localization",
     'version': '1.0',
