@@ -65,13 +65,14 @@
             <field name="priority">30</field>
             <field name="inherit_id" ref="hr.view_employee_form"/>
             <field name="arch" type="xml">
+
+                <field name="identification_id" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </field>
 			
-				<field name="identification_id" position="replace">
-				   <field name="matricule_cnss" placeholder="10 chiffres"/>
-				</field>
-				
-				<field name="otherid" position="replace">
-				   <field name="num_chezemployeur" string="Numéro chez l'employeur"/>
+				<field name="identification_id" position="after">
+                    <field name="matricule_cnss" placeholder="10 chiffres"/>
+                    <field name="num_chezemployeur" string="Numéro chez l'employeur"/>
 				</field>
 				
 			</field>
